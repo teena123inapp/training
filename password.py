@@ -21,10 +21,10 @@ while x:
         print "The password doesent contain valid characters"
         break
     else:
-        print "valid password"
+        print "it is a valid password"
         x = False
 if x == True:
-    print "not valid password"
+    print "it is not a valid password"
 
 
 
