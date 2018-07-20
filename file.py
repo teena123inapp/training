@@ -1,6 +1,6 @@
-fh = open("hello.txt","r")
-sentence= fh.read()
-fh.close()
+file1 = open("hello.txt","r")
+sentence= file1.read()
+file1.close()
 #a = sentence.split()
 fh1=open("hii.txt","w+")
 for i in range(0,len(sentence)):
